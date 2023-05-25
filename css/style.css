@@ -1,0 +1,115 @@
+/* CSS Reset */
+
+
+body {
+  background-color: #258476;
+  font-family: "Open Sans", sans-serif;
+  color: #ffedcb;
+  letter-spacing: 0.1em;
+  text-align: center;
+  height: 100vh;
+}
+
+/* Header */
+
+header {
+  width: 30%;
+  background-color: #777777;
+  color: #1d2a32;
+  align-items: center;
+  letter-spacing: 0.1em;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease-out;
+}
+
+h1 {
+  font-family: "Yeseva One", serif;
+  font-size: 1.75rem;
+  padding: 1rem 0rem 1rem 0.3rem;
+  text-align: left;
+}
+
+h1 span {
+  font-family: "Roboto", serif;
+  font-size: 0.7rem;
+  font-style: italic;
+  color: #ffedcb;
+}
+
+
+
+.luas-persegi-section,
+.keliling-persegi-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b3b45;
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 1px -1px 31px -4px rgba(203, 178, 121, 0.51);
+  transition: all 0.4s ease-out;
+}
+
+.persegi-title {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+
+.persegi-img {
+  background-color: #1d2a32;
+  border: 5px solid #f9b856;
+  max-width: 8rem;
+  height: 8rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+input {
+  width: 25%;
+  background-color: #2b3b45;
+  color: #ffedcb;
+  outline: 2px solid #f9b856;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+input:focus {
+  outline: 5px solid #c0c0c0;
+}
+
+::placeholder {
+  color: #c0c0c0;
+  font-family: "Roboto", serif;
+  letter-spacing: 0.1em;
+}
+
+.btn-hitung,
+.btn-reset {
+  width: 25%;
+  color: #394955;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  font-family: "Roboto", sans-serif;
+ 
+ 
+}
+
+.btn-hitung {
+  background-color: #f9b856;
+}
+
+.btn-reset {
+  margin-bottom: 2rem;
+  background-color: #6e0d0d;
+  color: #ffedcb;
+  box-shadow: #bb8b809d 0px 8px;
+}
+
